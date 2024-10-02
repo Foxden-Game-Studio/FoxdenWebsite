@@ -3,11 +3,6 @@
     display: inline-block;
 }
 
-.clickable-image {
-    width: 100px;
-    cursor: pointer;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;

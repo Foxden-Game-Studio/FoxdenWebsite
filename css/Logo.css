@@ -1,0 +1,15 @@
+.clickable-image {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;    
+}
+.clickable-image:hover {
+    transform: scale(1.2);
+}
+
+.clickable-image {
+    position: fixed; /* Keeps the image 200px from the top and left corners of the viewport */
+    top: 12px;
+    left: 12px;
+
+}
