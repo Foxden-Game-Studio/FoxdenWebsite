@@ -1,10 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: rgb(62,61,91);
+    background: linear-gradient(180deg, rgba(62,61,91,1) 0%, rgba(156,51,136,1) 33%, rgba(147,0,120,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container {
     position: relative;
     display: inline-block;
 }
 
 .clickable-image {
-    width: 100px; /* Set your desired image width */
+    width: 100px;
     cursor: pointer;
 }
 
@@ -32,9 +44,9 @@
 .nested-dropdown-content {
     display: none;
     background-color: #f9f9f9;
-    margin-left: 20px; /* Indent the nested dropdown */
+    margin-left: 20px;
 }
 
 .nested-dropdown-content a {
-    padding-left: 30px; /* Indent items in the nested dropdown */
+    padding-left: 30px;
 }
