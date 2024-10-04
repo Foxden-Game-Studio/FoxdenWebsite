@@ -4,13 +4,14 @@ document.getElementById('dropdownImage').onclick = function(event) {
     if (dropdown.style.display === 'none' || dropdown.style.display === '') {
         dropdown.style.display = 'block';
     } else {
+        nestedDropdown.style.display = 'none';
         dropdown.style.display = 'none';
     }
     event.stopPropagation(); // Prevent the event from bubbling up
 };
 
 // Toggle nested dropdown when "Button 1" is clicked
-document.getElementById('button1').onclick = function(event) {
+document.getElementById('theTeam').onclick = function(event) {
     event.preventDefault(); // Prevent default link behavior
     var nestedDropdown = document.getElementById('nestedDropdown');
     if (nestedDropdown.style.display === 'none' || nestedDropdown.style.display === '') {
