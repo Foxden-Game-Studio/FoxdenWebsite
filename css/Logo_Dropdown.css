@@ -18,12 +18,13 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #7e7e7e;
     min-width: 180px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     top: 110px;
+    left: 10px;
 }
 
 .dropdown-content a {
@@ -34,14 +35,14 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #727272;
     border-radius: 10px;
 }
 
 /* Nested dropdown menu */
 .nested-dropdown-content {
     display: none;
-    background-color: #f9f9f9;
+    background-color: #7e7e7e;
     margin-left: 20px;
     border-radius: 10px;
 }
