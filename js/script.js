@@ -1,6 +1,8 @@
+var dropdown = document.getElementById('dropdownMenu');
+var nestedDropdown = document.getElementById('nestedDropdown');
+
 // Toggle the main dropdown when the image is clicked
 document.getElementById('dropdownImage').onclick = function(event) {
-    var dropdown = document.getElementById('dropdownMenu');
     if (dropdown.style.display === 'none' || dropdown.style.display === '') {
         dropdown.style.display = 'block';
     } else {
@@ -13,10 +15,11 @@ document.getElementById('dropdownImage').onclick = function(event) {
 // Toggle nested dropdown when "Button 1" is clicked
 document.getElementById('theTeam').onclick = function(event) {
     event.preventDefault(); // Prevent default link behavior
-    var nestedDropdown = document.getElementById('nestedDropdown');
     if (nestedDropdown.style.display === 'none' || nestedDropdown.style.display === '') {
+        dropdown.style.minWidth = '225px';
         nestedDropdown.style.display = 'block';
     } else {
+        dropdown.style.minWidth = '195px'
         nestedDropdown.style.display = 'none';
     }
     event.stopPropagation(); // Prevent the event from bubbling up
