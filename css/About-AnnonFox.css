@@ -1,0 +1,11 @@
+.About-AnnonFox{
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+    left: 40%;
+    top: 10%;
+}
+
+.About-AnnonFox-text-title{
+    color: whitesmoke;
+}
