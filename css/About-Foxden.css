@@ -1,15 +1,16 @@
-.About-AnnonFox{
+.About-Foxden{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
 }
 
-.About-AnnonFox-text-title{
+.About-Foxden-text-title{
     color: whitesmoke;
     margin: 0;
 }
 
-.About-AnnonFox-text-Main{
+.About-Foxden-text-Main{
     position: absolute;
     margin: 0;
     top: 10%;
