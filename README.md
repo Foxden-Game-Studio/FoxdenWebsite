@@ -5,7 +5,8 @@ this is the website of the game Studio Foxden
 We strive to create fun games, lets see when we will release our first acutal game
 
 **Founder**
-AnnonFox
+~AnnonFox~ Adalrico
 
 **Co-Founder**
 Shad0w27
+
