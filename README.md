@@ -8,5 +8,6 @@ We strive to create fun games, lets see when we will release our first acutal ga
 ~AnnonFox~ Adalrico
 
 **Co-Founder**
-Shad0w27
+~Shad0w27~ Acacius
 
+pls ignore the change of mebers...
